@@ -26,9 +26,18 @@ header nav {
     color: white;
 }
 
+
+/* navbar modifiche essenziali */
+.my_drop {
+    position: static;
+}
+
 /* .dropdown-menu {
-border: none;
-margin-top: 0;
+    border: none;
+} */
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
 }
 
 .dropdown-menu.show {
@@ -44,7 +53,9 @@ margin-top: 0;
 .dropdown-item img {
     display: block;
     width: 100%;
-} */
+}
+
+/* container-jumbo */
 
 .bg_jumbo {
     background-image: url("../img/jumbo-bg.png");
