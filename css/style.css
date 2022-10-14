@@ -10,31 +10,32 @@ html {
     top: 0;
     left: 0;
     padding: 5px;
-} */
-
-header nav {
-    margin-top: 2rem;
-}
+}                                        sembra non serve più       */
 
 .nav_ham {
     margin-top: 90px;
 }
 
-.btn_style {
-    border-radius: 20px;
+.navbar .btn_style {
     background-color: #212529;
+}
+
+.btn_style {
+    border-radius: 30px;
     color: white;
+    padding: .5rem 1rem;
 }
 
 
 /* navbar modifiche essenziali */
+
 .my_drop {
     position: static;
 }
 
-/* .dropdown-menu {
+.dropdown-menu {
     border: none;
-} */
+}
 
 .dropdown-menu[data-bs-popper] {
     margin-top: 0;
@@ -55,12 +56,15 @@ header nav {
     width: 100%;
 }
 
+
 /* container-jumbo */
 
 .bg_jumbo {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    margin-top: 7rem;
     color: white;
 }
 
@@ -72,9 +76,33 @@ header nav {
     width: 100%;
 }
 
-.bg_jumbo button {
+.bg_jumbo .btn_style {
     background-color: #CD3D0F;
 }
 
+.bg_jumbo button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* cars header */
+
+.card_footer:hover {
+    border: 2px solid #0070D1;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.card_footer img {
+    max-width: 100%;
+    border-radius: 1rem;
+    padding: 2px;
+}
+/* fine HEADER  */
+
+
+
+/* MAIN */
 
 
