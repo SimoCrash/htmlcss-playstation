@@ -77,11 +77,11 @@ html {
     width: 100%;
 }
 
-.bg_jumbo .btn_style {
+.bg_jumbo .btn_style, .it_takes_two .btn_style  {
     background-color: #CD3D0F;
 }
 
-.bg_jumbo button a {
+.bg_jumbo button a, .it_takes_two .btn_style a {
     color: white;
     text-decoration: none;
 }
@@ -122,11 +122,12 @@ html {
  
 .ps5_instruments img {
     max-width: 50%;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .ps5_instruments img:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .ps5_instruments .d-flex-column {
@@ -135,5 +136,18 @@ html {
 
 .ps5_instruments .d-flex-column:hover {
     border-bottom: 2px solid #0070D1;
+    cursor: pointer;
 }
 
+
+/* it_takes_two */
+
+.it_takes_two_cont {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.it_takes_two img {
+    max-width: 70%;
+}
