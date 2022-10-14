@@ -120,4 +120,20 @@ html {
     max-width: 80%;
 }
  
+.ps5_instruments img {
+    max-width: 50%;
+    opacity: 0.6;
+}
+
+.ps5_instruments img:hover {
+    opacity: 1;
+}
+
+.ps5_instruments .d-flex-column {
+    height: 100%;
+}
+
+.ps5_instruments .d-flex-column:hover {
+    border-bottom: 2px solid #0070D1;
+}
 
