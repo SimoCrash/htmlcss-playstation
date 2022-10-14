@@ -24,6 +24,7 @@ html {
     border-radius: 30px;
     color: white;
     padding: .5rem 1rem;
+    border: none;
 }
 
 
@@ -105,4 +106,18 @@ html {
 
 /* MAIN */
 
+/* ecco_la_ps5 */
+
+.ecco_la_ps5 {
+    margin-top: 100px;
+}
+
+.ps5_section .btn_style {
+    background-color: #0070D1;
+}
+
+.img_ps5 img {
+    max-width: 80%;
+}
+ 
 
