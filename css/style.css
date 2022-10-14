@@ -2,7 +2,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.color_initial_row {
+/* .color_initial_row {
     background-color: black;
     justify-content: end;
     align-items: center;
@@ -10,7 +10,7 @@ html {
     top: 0;
     left: 0;
     padding: 5px;
-}
+} */
 
 header nav {
     margin-top: 2rem;
@@ -25,3 +25,45 @@ header nav {
     background-color: #212529;
     color: white;
 }
+
+/* .dropdown-menu {
+border: none;
+margin-top: 0;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+
+.dropdown-item img {
+    display: block;
+    width: 100%;
+} */
+
+.bg_jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.returnal_cont {
+    padding: 250px 0 50px;
+}
+
+.returnal_cont img {
+    width: 100%;
+}
+
+.bg_jumbo button {
+    background-color: #CD3D0F;
+}
+
+
+
