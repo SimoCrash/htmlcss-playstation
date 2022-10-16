@@ -151,3 +151,21 @@ html {
 .it_takes_two img {
     max-width: 70%;
 }
+
+
+/* nuove_uscite */
+
+.nuove_uscite img {
+    width: 100%;
+}
+
+/* esplora_ps4 */
+
+.btn_scopri_di_piu {
+    border-radius: 30px;
+    border: none;
+}
+
+.container_ps4 img {
+    max-width: 100%;
+}
