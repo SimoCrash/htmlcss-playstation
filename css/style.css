@@ -162,11 +162,38 @@ html {
 
 /* esplora_ps4 */
 
+.container_ps4 img {
+    max-width: 100%;
+}
+
 .btn_scopri_di_piu {
     border-radius: 30px;
     border: none;
+    background-color: #0070D1;
 }
 
-.container_ps4 img {
+
+/* playstation_plus */
+
+.playstation_plus {
+    background-color: #BEBCBB;
+}
+
+.esplora_PSPlus {
+    border-radius: 30px;
+    border: none;
+    color: #0070D1;
+    background-color: #D9DADC;
+}
+
+.playstation_plus img {
     max-width: 100%;
+}
+
+.playstation_plus_l {
+    gap: 2rem;
+}
+
+.playstation_plus_l img {
+    max-width: 50%;
 }
