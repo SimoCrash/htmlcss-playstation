@@ -197,3 +197,10 @@ html {
 .playstation_plus_l img {
     max-width: 50%;
 }
+
+
+/* discont_PSStore */
+
+.discont_PSStore img {
+    max-width: 100%;
+}
