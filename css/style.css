@@ -156,7 +156,8 @@ html {
 /* nuove_uscite */
 
 .nuove_uscite img {
-    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 /* esplora_ps4 */
