@@ -230,3 +230,10 @@ html {
 .playstation_now_r img {
     max-width: 70%;
 }
+
+
+/* follow_us */
+
+.follow_us img {
+    max-width: 100%;
+}
