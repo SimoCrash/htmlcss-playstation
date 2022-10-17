@@ -58,6 +58,12 @@ html {
 }
 
 
+
+
+
+
+
+
 /* container-jumbo */
 
 .bg_jumbo {
@@ -84,6 +90,16 @@ html {
 .bg_jumbo button a, .it_takes_two .btn_style a {
     color: white;
     text-decoration: none;
+}
+
+.btn_style_padding {
+    margin: 1px;
+}
+
+.border_buttom:hover {
+    border: 1px solid #CD3D0F;
+    border-radius: 30px;
+    width: 124px;
 }
 
 
