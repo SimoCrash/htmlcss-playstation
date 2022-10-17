@@ -237,3 +237,23 @@ html {
 .follow_us img {
     max-width: 100%;
 }
+
+
+/* link_footer */
+
+.link_footer {
+    background-color: #00439C;
+}
+
+.link_footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.link_footer .sie_logo {
+    width: 25%;
+}
+
+.link_footer ul {
+    list-style: none;
+}
