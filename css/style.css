@@ -204,3 +204,29 @@ html {
 .discont_PSStore img {
     max-width: 100%;
 }
+
+
+/* ps_now */
+
+.ps_now {
+    background-color: #161C3B;
+}
+
+.esplora_PSNow {
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    flex-basis: 0;
+}
+
+.playstation_now_l {
+    gap: 2rem;
+}
+
+.playstation_now_l img {
+    max-width: 50%;
+}
+
+.playstation_now_r img {
+    max-width: 70%;
+}
